@@ -1,16 +1,143 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Hello World!</title>
-<link rel="stylesheet" href="bluestyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Learning Workshop</title>
+    <link rel="stylesheet" href="bluestyle.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background: #f8f8f8;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav ul li {
+            margin: 0;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        main {
+            display: flex;
+        }
+        .sidebar {
+            width: 200px;
+            background: #f4f4f4;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
 
-<h1>Hello world!</h1>
-<div><img src="./Image1.jpeg" alt="Hello World from Space" style="width:40%;max-width:500px"></div>
-<p>This is the first file in my new Git Repo.</p>
-<p>This line is here to show how merging works.</p>
-<div><img src="./Image2.jpeg" alt="Hello Git" style="width:100%;max-width:400px"></div>
+<header>
+    <h1>Git Learning Workshop</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Tutorials</a></li>
+        <li><a href="#">Exercises</a></li>
+        <li><a href="#">Certificates</a></li>
+        <li><a href="#">Services</a></li>
+    </ul>
+</nav>
+
+<main>
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">Git Intro</a></li>
+            <li><a href="#">Git Get Started</a></li>
+            <li><a href="#">Git New Files</a></li>
+            <li><a href="#">Git Staging Environment</a></li>
+            <li><a href="#">Git Commit</a></li>
+            <li><a href="#">Git Help</a></li>
+            <li><a href="#">Git Branch</a></li>
+            <li><a href="#">Git Branch Merge</a></li>
+            <li><a href="#">GitHub Get Started</a></li>
+            <li><a href="#">GitHub Edit Code</a></li>
+            <li><a href="#">Pull from GitHub</a></li>
+            <li><a href="#">Push to GitHub</a></li>
+            <li><a href="#">GitHub Branch</a></li>
+            <li><a href="#">Pull Branch from GitHub</a></li>
+            <li><a href="#">Push Branch to GitHub</a></li>
+            <li><a href="#">GitHub Pages</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="image-container">
+            <img src="./Image1.jpeg" alt="Hello World from Space">
+        </div>
+        <p>Welcome to the Git Learning Workshop! This workshop is designed to help you understand the basics of Git and how to use it for version control in your projects.</p>
+        <p>Throughout this workshop, you'll learn about:</p>
+        <ul>
+            <li>Setting up a Git repository</li>
+            <li>Making commits</li>
+            <li>Branching and merging</li>
+            <li>Collaborating with others</li>
+        </ul>
+        <p>We hope you find this workshop informative and helpful as you start your journey with Git.</p>
+        <div class="image-container">
+            <img src="./Image2.jpeg" alt="Hello Git">
+        </div>
+        <p>This line is here to show how merging works.</p>
+    </div>
+</main>
 
 </body>
 </html>
